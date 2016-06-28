@@ -18,5 +18,5 @@ print(mean,max,std_dev)
 mean_over_time=np.mean(patient_data, axis=0);
 
 plt.plot(mean_over_time);
-plt.show()
+plt.savefig("inflammation-01.png");
 
