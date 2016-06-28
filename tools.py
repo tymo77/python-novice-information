@@ -9,6 +9,4 @@ def analyze_csv(filename):
 	mean=data.mean();
 	max=data.max();
 	std_dev=data.std();
-	print("mean:",mean);
-	print("max:",max);
-	print("std. dev",std_dev);
+	return[mean,max,std_dev];
